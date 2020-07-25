@@ -57,6 +57,18 @@ const editorHTML = `
         #editor:focus {
           outline: 0px solid transparent;
         }
+        h1 {
+          font-family: AvenirLTPro-Heavy;
+          font-size: 18px;
+        }
+        h3 {
+          font-family: AvenirLTStd-Medium;
+          font-size: 16px;
+        }
+        p {
+          font-family: AvenirLTStd-Book;
+          font-size: 14px;
+        }
         
       [contenteditable][placeholder]:empty:before {
         content: attr(placeholder);
